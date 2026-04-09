@@ -84,3 +84,25 @@ print(" # ".join(list1)) # The join() method is used to concatenate the elements
 var1 ="I am enjoying this challenge"
 var2 ="I just wonder what is next"
 print(var1,"\n",var2)
+
+# Use a tab escape sequence to write the following lines.
+print("Name\tAge\tCountry\tCity\nAsabeneh\t250\tFinland\tHelsinki")
+
+#\t is the escape sequence for a tab character, 
+# which adds a horizontal space between the elements in the output. In this case,
+#  it is used to create a table-like format for the name, age, country, and city. 
+
+radius = 10 
+area = 3.14 * radius ** 2
+print("The area of a circle with radius", radius, "is", area , "meters square.")
+
+# Make the following using string formatting methods:
+print("{} + {} = {}".format(8,6,14))
+print("{} - {} = {}".format(8,6,2))
+print("{} * {} = {}".format(8,6,48))
+print("{} / {} = {}".format(8,6,1.33))
+print("{} % {} = {}".format(8,6,2))
+print("{} // {} = {}".format(8,6,1))
+print("{} ** {} = {}".format(8,6,262144))
+
+
